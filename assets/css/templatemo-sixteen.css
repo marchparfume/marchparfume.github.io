@@ -317,25 +317,26 @@ header .navbar {
 }
 
 .banner-item-01 {
-	padding: 600px 0px;
-	background-image: url(../images/2.png);
+	padding: 200px 0px;
+	background-image: url(../images/banner1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-attachment: fixed;
 
 }
 
 .banner-item-02 {
-	padding: 600px 0px;
-	background-image: url(../images/3.png);
+	padding: 190px 0px;
+	background-image: url(../images/banner2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 .banner-item-03 {
-	padding: 600px 0px;
-	background-image: url(../images/4.png);
+	padding: 190px 0px;
+	background-image: url(../images/banner3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -671,12 +672,12 @@ footer .inner-content p a {
 /* Team Members */
 
 .team-members {
-	margin-top: 100px;
+	margin-top: 15px;
 }
 
 .team-member {
 	border: 1px solid #eee;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .team-member img {
@@ -945,7 +946,7 @@ footer .inner-content p a {
 	.banner-item-01,
 	.banner-item-02,
 	.banner-item-03 {
-		padding: 180px 0px;
+		padding: 60px 0px;
 	}
 	.page-heading .text-content h4 {
 		font-size: 22px;
