@@ -6,11 +6,14 @@ https://templatemo.com/tm-546-sixteen-clothing
 
 */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Alegreya', fantasy;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+html{
+	scroll-behavior: smooth;
 }
 p {
 	margin-bottom: 0px;
@@ -47,15 +50,15 @@ ul.social-icons li a {
 	display: inline-block;
 	line-height: 50px;
 	background-color: #eee;
-	color: #121212;
+	color: black;
 	font-size: 18px;
 	text-align: center;
 	transition: all .3s;
 }
 
 ul.social-icons li a:hover {
-	background-color: #f33f3f;
-	color: #fff;
+	background-color: whitesmoke;
+	color: black;
 }
 
 a.filled-button {
@@ -125,7 +128,7 @@ a.filled-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #f33f3f;
+  background: white;
   left: 0;
   right: 0;
   top: 0;
@@ -134,6 +137,8 @@ a.filled-button:hover {
   z-index: 9999999;
   color: #fff;
 }
+
+
 
 #preloader .jumper {
   left: 0;
@@ -318,7 +323,7 @@ header .navbar {
 
 .banner-item-01 {
 	padding: 200px 0px;
-	background-image: url(../images/banner1.png);
+	background-image: url(../images/banner4.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -434,8 +439,8 @@ header .navbar {
 }
 
 .product-item .down-content h4 {
-	font-size: 17px;
-	color: #1a6692;
+	font-size: 30px;
+	color: yellow;
 	margin-bottom: 20px;
 }
 
@@ -456,7 +461,7 @@ header .navbar {
 }
 
 .product-item .down-content ul li i {
-	color: #f33f3f;
+	color: black;
 	font-size: 14px;
 }
 
@@ -498,7 +503,7 @@ header .navbar {
 }
 
 .best-features img {
-	width: 100%;
+	width: 50%;
 	overflow: hidden;
 }
 
@@ -696,7 +701,7 @@ footer .inner-content p a {
 
 .team-member .thumb-container .hover-effect {
 	position: absolute;
-	background-color: rgba(243,63,63,0.9);
+	background-color: rgba(0, 0, 0, 0.5);
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -717,7 +722,7 @@ footer .inner-content p a {
 
 .team-member .thumb-container .hover-effect .hover-content ul.social-icons li a:hover {
 	background-color: #fff;
-	color: #f33f3f;
+	color: black;
 }
 
 .team-member:hover .hover-effect {
@@ -727,14 +732,14 @@ footer .inner-content p a {
 
 .team-member .down-content h4 {
 	font-size: 17px;
-	color: #1a6692;
+	color: black;
 	margin-bottom: 8px;
 }
 
 .team-member .down-content span {
 	display: block;
-	font-size: 13px;
-	color: #f33f3f;
+	font-size: 20px;
+	color: yellow;
 	font-weight: 500;
 	margin-bottom: 20px;
 }
@@ -826,7 +831,7 @@ footer .inner-content p a {
 
 .find-us h4 {
 	font-size: 17px;
-	color: #1a6692;
+	color: black;
 	margin-bottom: 20px;
 }
 
@@ -834,7 +839,10 @@ footer .inner-content p a {
 	margin-left: 30px;
 }
 
-
+.find-us .thumb-container ul.social-icons li a:hover {
+	background-color: #fff;
+	color: black;
+}
 
 /* Send Message */
 
