@@ -440,7 +440,7 @@ header .navbar {
 
 .product-item .down-content h4 {
 	font-size: 30px;
-	color: yellow;
+	color: orange;
 	margin-bottom: 20px;
 }
 
@@ -739,7 +739,7 @@ footer .inner-content p a {
 .team-member .down-content span {
 	display: block;
 	font-size: 20px;
-	color: yellow;
+	color: orange;
 	font-weight: 500;
 	margin-bottom: 20px;
 }
